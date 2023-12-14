@@ -52,11 +52,12 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
-      filename: "./index.html"
+      filename: "/home/rmendes/bunble/index.html"
     })
   ],
   output: {
     publicPath: '/',
+    path : '/home/rmendes/bunble',
     filename: 'index.js',
   }
 };
