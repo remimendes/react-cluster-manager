@@ -1,4 +1,5 @@
-import React from "react"	// for alerts.push({body: (<implicit React.createElement>), ...})
+import React from "react"
+// for alerts.push({body: (<implicit React.createElement>), ...})
 
 function encodeQueryData(data) {
 	const ret = []
