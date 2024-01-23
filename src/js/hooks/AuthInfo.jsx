@@ -4,7 +4,7 @@ function useAuthInfo(props) {
 	const [authInfo, setAuthInfo] = useState()
 	useEffect(() => {
 		async function fetchData() {
-			const res = await fetch('/authinfo')
+			const res = await fetch('/auth/info')
 			res
 				.json()
 				.then((data) => {
